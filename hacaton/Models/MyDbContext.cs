@@ -8,5 +8,6 @@ public class MyDbContext : DbContext
     public DbSet<Category> Categories { get; set; }
     public DbSet<Audio> Audios { get; set; }
     public DbSet<Work> Works { get; set; }
+    public DbSet<Comment> Comments { get; set; }
     public MyDbContext(DbContextOptions<MyDbContext> options) : base(options){}
 }
