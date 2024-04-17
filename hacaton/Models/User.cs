@@ -7,6 +7,5 @@ public class User
     public string LastName { get; set; }
     public string Email { get; set; }
     public string Password { get; set; }
-    public int WorkId { get; set; }
-    public Work Work { get; set; }
+  
 }
